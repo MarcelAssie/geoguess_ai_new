@@ -9,16 +9,22 @@
       v-else-if="currentPage === 'game'"
       @back-to-welcome="showWelcomePage"
     />
+    <Setup
+      v-else-if="currentPage === 'setup'"
+      @back-to-welcome="showSetupPage"
+    />
   </div>
 </template>
 
 <script>
 import WelcomePage from './components/Welcome.vue'
 import GamePage from './components/GamePage.vue'
+import Setup from "@/components/Setup.vue";
 
 export default {
   name: 'App',
   components: {
+    Setup,
     WelcomePage,
     GamePage
   },
@@ -30,6 +36,9 @@ export default {
   methods: {
     showGamePage() {
       this.currentPage = 'game'
+    },
+    showSetupPage() {
+      this.currentPage = 'setup'
     },
     showWelcomePage() {
       this.currentPage = 'welcome'
@@ -54,20 +63,3 @@ export default {
         }
 }
 </script>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f5f5f5;
-}
-
-#app {
-  min-height: 100vh;
-}
-</style>

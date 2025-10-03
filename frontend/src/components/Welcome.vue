@@ -59,7 +59,7 @@
         <div class="features-grid">
           <div class="feature">
             <div class="feature-icon">🤖</div>
-            <h4>Défiez Gemini 2.5 Pro</h4>
+            <h4>Défiez Gemini</h4>
             <p>Affrontez l'une des IA les plus avancées dans un duel géographique tour par tour.</p>
           </div>
           <div class="feature">
