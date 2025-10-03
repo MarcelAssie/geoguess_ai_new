@@ -1,0 +1,28 @@
+# --- Python / Flask ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+instance/
+.env
+
+# --- Logs ---
+*.log
+
+# --- Node / Vue ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# --- IDE (PyCharm, VSCode, etc.) ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS spécifiques ---
+.DS_Store
+Thumbs.db

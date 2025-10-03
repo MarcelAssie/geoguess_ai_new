@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Titillium+Web:wght@300;400;600&display=swap');
+
+/* --- Variables de Design --- */
+:root {
+  --background-color: #02041b;
+  --primary-glow: #00ffff; /* Cyan */
+  --secondary-glow: #be00ff; /* Magenta */
+  --text-color: #d4e1f7;
+  --card-bg: rgba(10, 21, 51, 0.55);
+  --card-border: rgba(0, 255, 255, 0.2);
+  --font-title: 'Orbitron', sans-serif;
+  --font-body: 'Titillium Web', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #02041b; /* Identique au fond du composant pour une transition douce */
+  font-family: 'Titillium Web', sans-serif;
+}
